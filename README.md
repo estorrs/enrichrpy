@@ -34,7 +34,7 @@ df = een.get_pathway_enrichment(genes, gene_set_library='GO_Biological_Process_2
 df
 ```
 
-[[/images/datatable.png|datatable]]
+<img src="images/datatable.png">
 
 #### Enrichment bar plot
 
@@ -42,7 +42,7 @@ df
 epl.enrichment_barplot(df, n=20)
 ```
 
-[[/images/barplot.png|barplot]]
+<img src="images/barplot.png">
 
 #### Enrichment dot plot
 
@@ -50,4 +50,4 @@ epl.enrichment_barplot(df, n=20)
 epl.enrichment_dotplot(df, n=20, hue='Z-score', log=True)
 ```
 
-[[/images/dotplot.png|dotplot]]
+<img src="images/dotplot.png">
