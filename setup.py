@@ -10,9 +10,9 @@ with open(path.join(here, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    # $ pip install pollock
+    # $ pip install enrichrpy
     name='enrichrpy',
-    version='0.0.1',
+    version='0.1.0',
     description='A tool for gene set enrichment (GSEA) plots and analysis in Python. Built on top of Enrichr API.',
     long_description=long_description,
     long_description_content_type='text/markdown',
